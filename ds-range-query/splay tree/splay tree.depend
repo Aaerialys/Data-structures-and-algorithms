@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1587070222 source:c:\new folder 3\splay tree\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
+1587515917 source:c:\new folder 3\zzdata structures and algorithms\data-structures\splay tree\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585799641 source:c:\new folder 3\segtree\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
