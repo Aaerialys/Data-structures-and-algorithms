@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1506893452 source:c:\new folder 3\graph\main.cpp
+	<iostream>
+	<queue>
+
+1511057357 source:c:\new folder 3\zzdata structures and algorithms\graph\main.cpp
+	<bits/stdc++.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1586494624 source:c:\new folder 3\fft\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
+1592884511 source:c:\new folder 3\zzdata structures and algorithms\fft\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
