@@ -1,2 +1,2 @@
 # Data-structures-and-algorithms
-Templates
+Template
