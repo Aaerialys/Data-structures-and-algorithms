@@ -165,7 +165,8 @@ struct Bitset{ //use pragma ofast and unroll loops for higher speed
     }
     Bitset& operator<<=(const int x){
         int sa=x>>S,sb=x&M,sc=B-sb;
-        ford(i,R,sa+1) bit[i]=bit[i-sa]<<sb|bit[i-sa-1]>>sc;
+        if(sb) ford(i,R,sa+1) bit[i]=bit[i-sa]<<sb|bit[i-sa-1]>>sc;
+        else ford(i,R,sa+1) bit[i]=bit[i-sa];
         bit[sa]=bit[0]<<sb;
         bit[R-1]&=MASK>>(R*B-N);
         ford(i,sa,0) bit[i]=0;
@@ -178,7 +179,8 @@ struct Bitset{ //use pragma ofast and unroll loops for higher speed
     }
     Bitset& operator>>=(const int x){
         int sa=x>>S,sb=x&M,sc=B-sb;
-        fori(0,R-sa-1) bit[i]=bit[i+sa]>>sb|bit[i-sa+1]<<sc;
+        if(sb) fori(0,R-sa-1) bit[i]=bit[i+sa]>>sb|bit[i-sa+1]<<sc;
+        else fori(0,R-sa-1) bit[i]=bit[i+sa];
         bit[R-sa-1]=bit[R-1]>>sb;
         fori(R-sa,R) bit[i]=0;
         return *this;
